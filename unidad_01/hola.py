@@ -2,4 +2,4 @@
 nombre = input("Cuál es tu nombre?")
 
 # Imprime hola y nombre ingresado
-print("Hola " + nombre)
+print("Hola" , nombre)
