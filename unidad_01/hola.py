@@ -1,8 +1,13 @@
-# Pregunta al usuario por su nombre
-# Eliminar espacios en blanco y Capitalizar
-nombre = input("Cuál es tu nombre?").strip().title()
+def main():
+    nombre = input("Cuál es tu nombre?").strip().title()
 
-# nombre = nombre
+    hola(nombre)
 
-# Imprime hola y nombre
-print(f"Hola, {nombre}")
+    hola()
+
+def hola(para="Mundo"):
+    print("Hola", para)
+
+main()
+
+
