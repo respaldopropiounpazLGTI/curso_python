@@ -1,5 +1,9 @@
-x = float(input("Cuál es x?")) 
-y = float(input("Cuál es y?")) 
-z = x / y  
-# z = round(x / y, 1)  
-print(f"{z:.2f}" )
+def main():
+    x = int(input("Cuál es x?")) 
+
+    print("x al cuadrado es: ", cuadrado(x))
+
+def cuadrado(n):
+    return n * n
+
+main()
