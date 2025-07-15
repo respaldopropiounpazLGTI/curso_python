@@ -2,4 +2,6 @@
 nombre = input("Cuál es tu nombre?")
 
 # Imprime hola y nombre
-print("Hola," ,nombre)
+print("Hola, \"amigo\"")
+
+# print(nombre)
