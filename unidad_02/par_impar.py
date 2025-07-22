@@ -8,6 +8,6 @@ def main():
     
 
 def es_par(x):
-    return True if x % 2 == 0 else False
+    return x % 2 == 0
     
 main()
