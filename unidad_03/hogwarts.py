@@ -1,4 +1,10 @@
-estudiantes = ["Hermione", "Harry", "Ron"]
+estudiantes = {
+    # Clave  ----- > Valor
+    "Hermione": "Gryffindor",
+    "Harry": "Gryffindor",
+    "Ron": "Gryffindor",
+    "Draco": "Slytherin",
+}
 
-for i in range(len(estudiantes)):
-    print(i + 1, estudiantes[i])
+for clave in estudiantes:
+    print(clave, estudiantes[clave], sep=", ") 
