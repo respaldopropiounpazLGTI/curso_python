@@ -1,19 +1,16 @@
-vida = input("¿Cuál es la respuesta a la gran pregunta sobre la vida, el universo y todo lo demás? ").lower().strip()
+pregunta = input("¿Cuál es la respuesta a la gran pregunta sobre la vida, el universo y todo lo demás? ")
 
-#if vida == "42" or vida== "cuarenta y dos" or vida == "cuarentaidos":
-  #  print("¡Sí!")
-#else:
- #   print("NO")
+pregunta = pregunta.strip().lower()
 
+match pregunta:
+    case "42" | "cuarenta y dos" | "cuarentaidos":
+        print("Si")
+    case _ :
+        print("No")
 
+# Opción 1
 
-
-match vida:
-    case "42" :
-        print("¡Sí!")
-    case "cuarenta y dos":
-        print("¡Sí!")
-    case "cuarentaidos":
-        print("¡Sí!")
-    case _:
-        print("¡NO!")
+# if pregunta == "42" or pregunta == "cuarenta y dos" or pregunta == "cuarentaidos":
+#     print("Si")
+# else:
+#     print("No")
