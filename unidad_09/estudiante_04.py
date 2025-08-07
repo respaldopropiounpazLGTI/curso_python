@@ -15,6 +15,9 @@ class Estudiante:
         return f"{self.nombre} de {self.casa}"
 
     # Método de clase
+    # Observa cómo definimos nuestro propio método hechizo. 
+    # A diferencia de los diccionarios, las clases pueden tener funciones incorporadas 
+    # llamadas métodos.
     def hechizo(self):
         match self.patronus:
             case "Ciervo":
