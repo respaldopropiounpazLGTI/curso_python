@@ -30,11 +30,15 @@ def data():
 @app.route("/api/items", methods=["GET"])
 def listar_items():
     datos = cargar_datos()
+    # print(" -----datos[0] ------")
+    # print(datos[0])
     return jsonify(datos)
 
 # GET - Obtener un ítem por ID
 @app.route("/api/items/<int:item_id>", methods=["GET"])
 def obtener_item(item_id):
+    # print("item_id ----")
+    # print(item_id)
     datos = cargar_datos()
     for item in datos:
         if item["id"] == item_id:
@@ -49,6 +53,11 @@ def agregar_item():
 
     if not nuevo_item.get("nombre"):
         return jsonify({"error": "El campo 'nombre' es obligatorio"}), 400
+
+    # if datos:
+    #     nuevo_item["id"] = datos[-1]["id"] + 1
+    # else:
+    #     nuevo_item["id"] = 1
 
     nuevo_item["id"] = datos[-1]["id"] + 1 if datos else 1
     datos.append(nuevo_item)

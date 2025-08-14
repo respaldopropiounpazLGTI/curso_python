@@ -5,8 +5,18 @@
         "precio": 10.5
     },
     {
-        "id": 2,
-        "nombre": "Item 2",
-        "precio": 20.0
+        "nombre": "Item nuevo",
+        "precio": 15.0,
+        "id": 3
+    },
+    {
+        "nombre": "Item Ernesto",
+        "precio": 20.0,
+        "id": 4
+    },
+    {
+        "nombre": "Item nuevo test",
+        "precio": 10.0,
+        "id": 5
     }
 ]
