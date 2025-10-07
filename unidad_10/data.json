@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "nombre": "Item 1",
+        "precio": 10.5
+    },
+    {
+        "nombre": "Item nuevo",
+        "precio": 15.0,
+        "id": 3
+    },
+    {
+        "nombre": "Item Ernesto",
+        "precio": 20.0,
+        "id": 4
+    },
+    {
+        "nombre": "Item nuevo test",
+        "precio": 10.0,
+        "id": 5
+    }
+]
